@@ -1,0 +1,1 @@
+{"name":"my-project","version":"1.0.0","description":"","main":"index.js","type":"module","scripts":{"start":"node src/index.js"},"keywords":[],"author":"","license":"ISC"}
