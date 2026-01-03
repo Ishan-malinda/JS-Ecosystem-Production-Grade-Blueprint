@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Local database data
+.neon_local/
+
+# Logs (keep directory, ignore log files)
+logs/*
+!logs/.gitkeep
+*.log
+
+# Test coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
