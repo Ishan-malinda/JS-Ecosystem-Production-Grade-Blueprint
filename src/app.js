@@ -1,5 +1,6 @@
 import express from 'express';
 import helmet from 'helmet';
+import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
@@ -10,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+app.use(morgan('combined'));
 
 app.get('/', (req, res) => {
   res.status(200).send('Hello from My API!');
