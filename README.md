@@ -12,3 +12,10 @@ cp .env.example .env
 npm install
 npm run dev
 ```
+
+## 📦 Architecture
+
+```
+Client → Helmet → CORS → Parsers → Morgan/Winston → Arcjet Security
+  → Router → Auth Middleware → Controller → Service → Model → PostgreSQL
+```
