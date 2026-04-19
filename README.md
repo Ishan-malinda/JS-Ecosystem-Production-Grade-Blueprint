@@ -1,6 +1,6 @@
-# 🏗️ Professional Node.js/Express API — Project BluePrint
+# 🏗️ Professional Node.js/Express API — 
 
-> Your **production-ready starting template** for any Node.js API.  
+> Your **production-ready starting system** for any Node.js API.  
 > Copy it, rename it, fill in your logic — everything is already wired up.
 
 ---
